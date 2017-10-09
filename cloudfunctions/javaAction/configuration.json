@@ -1,0 +1,9 @@
+{
+  "qmgrHostName": "hostnameOrIP",
+  "qmgrPort": 32200,
+  "qmgrName": "QM1",
+  "qmgrChannelName": "DEV.ADMIN.SVRCONN",
+  "username": "admin",
+  "password": "passw0rd",
+  "queueName": "DEV.QUEUE.1"
+}
