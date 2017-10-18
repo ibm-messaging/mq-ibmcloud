@@ -2,7 +2,7 @@
 
 This repository contains sample code for running IBM® MQ on IBM Cloud / Bluemix.
 
-* [Java Action for processing MQ messages using IBM Cloud Functions (OpenWhisk)](https://github.com/ibm-messaging/mq-ibmcloud/tree/master/ProcessMQMessages)
+* [Java Action for processing MQ messages using IBM Cloud Functions (OpenWhisk)](https://github.com/ibm-messaging/mq-ibmcloud/tree/master/javaAction)
 
 ## License
 
