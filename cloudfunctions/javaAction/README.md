@@ -10,13 +10,13 @@ The high level steps described in the blog post are;
   - Sample code (this project)
   - IBM MQ JMS client library
   - Internet accessible queue manager
-1. Build and test the IBM Cloud Functions “Action” that will process our messages
+2. Build and test the IBM Cloud Functions “Action” that will process our messages
   - use 'gradle build' after cloning this project
   - update the configuration.json file with details specific to your endpoints
-1. Upload the Action to Bluemix and configure an Alarm and Rule so that it is invoked
+3. Upload the Action to Bluemix and configure an Alarm and Rule so that it is invoked
   - Use 'wsk action create' to upload the Action to IBM Bluemix
   - Use 'wsk action update' to apply the configuration parameters
   - Configure an Alarm and Rule to cause the Action to be invoked
-1. Put some sample messages to the queue to see our Action in action!
+4. Put some sample messages to the queue to see our Action in action!
   - Use the MQ Web Console or a messaging application to send some messages
   - Observe the Action being invoked using the Bluemix user interface
